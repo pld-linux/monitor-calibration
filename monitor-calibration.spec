@@ -17,6 +17,12 @@ features Black point calibration, per-Display gamma calibration for
 arbitrary target gamma values and a graphical editor for calibrating
 the gamma.
 
+%description -l pl
+Narzêdzie do kalibracji monitora formalnie znane jako GammaarRRr. To
+narzêdzie obs³uguje kalibracjê czarnego punktu, kalibracjê korekty
+gamma pod wy¶wietlacz dla dowolnych warto¶ci gamma oraz graficzny
+edytor do kalibracji gamma.
+
 %prep
 %setup -q
 
