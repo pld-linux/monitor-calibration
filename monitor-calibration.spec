@@ -3,7 +3,7 @@ Summary(pl):	Narzêdzie do kalibracji monitora
 Name:		monitor-calibration
 Version:	0.1.1
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		X11/Applications
 Source0:	http://www.burtonini.com/computing/%{name}-%{version}.tar.gz
 # Source0-md5:	918b877e6a15ff90657d344b9ce3d48a
