@@ -1,0 +1,15 @@
+--- ./configure.ac.org	2003-09-30 19:38:23.000000000 +0200
++++ ./configure.ac	2006-12-01 08:52:52.000000000 +0100
+@@ -26,9 +26,9 @@
+ LIBS="$LIBS -L$x_libraries"
+ CFLAGS="$CFLAGS -L$x_includes"
+ dnl TODO: how do I check for static libraries?
+-AC_CHECK_LIB(X11, XF86VidModeSetGamma,
+-             GAMMA_LIBS=$x_libraries/libXxf86vm.a ,AC_MSG_ERROR([Can't find gamma setting functions]),
+-             [-lXext $x_libraries/libXxf86vm.a])
++AC_CHECK_LIB(Xxf86vm, XF86VidModeSetGamma,
++             GAMMA_LIBS=-lXxf86vm ,AC_MSG_ERROR([Can't find gamma setting functions]),
++             [-lXext -lXxf86vm])
+ dnl TODO: and how do I tell my makefiles about it! Argh!
+ AC_SUBST(GAMMA_LIBS)
+ LIBS="$old_LIBS"
