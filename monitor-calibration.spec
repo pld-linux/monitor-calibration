@@ -8,7 +8,7 @@ Group:		X11/Applications
 Source0:	http://www.burtonini.com/computing/%{name}-%{version}.tar.gz
 # Source0-md5:	918b877e6a15ff90657d344b9ce3d48a
 Patch0:		%{name}-libXxf86vm.patch
-BuildRequires:	X11-devel
+BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+2-devel
