@@ -1,5 +1,5 @@
 Summary:	Monitor calibration tool
-Summary(pl.UTF-8):   Narzędzie do kalibracji monitora
+Summary(pl.UTF-8):	Narzędzie do kalibracji monitora
 Name:		monitor-calibration
 Version:	0.1.1
 Release:	1
